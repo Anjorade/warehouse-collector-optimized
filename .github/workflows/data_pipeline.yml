@@ -2,7 +2,7 @@ name: Warehouse Data Collector
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 2 AM hora Colombia (UTC-5)
+    - cron: '0 8 * * *'  # 3 AM hora Colombia (UTC-5)
   workflow_dispatch:
 
 env:
